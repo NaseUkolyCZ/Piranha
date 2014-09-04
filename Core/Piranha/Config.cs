@@ -60,6 +60,16 @@ namespace Piranha
             }
         }
 
+		/// Gets/sets if the page & post type builder of the Extension Manager
+		/// should be disabled.
+		/// </summary>
+		public static bool DisableTypeBuilder {
+			get {
+				return config.Settings.DisableTypeBuilder.Value;
+			}
+		}
+
+		/// <summary>
         /// <summary>
         /// Gets if "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"> should be rendered for IE
         /// </summary>
